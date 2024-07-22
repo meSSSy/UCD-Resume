@@ -12,18 +12,40 @@
 </head>
 <body>
     <header>
-        <div class="row">
+        <!-- No gutters class removes all opening spaces -->
+        <div class="row no-gutters">
             <!-- Splits columns into 1 3rd of page a tag must follow a row and logo tag added -->
             <a href="index.html" class="col-md-4 logo">
 
             </a>
             <!-- Splits columns into 2 thirds -->
             <div class="col-md-8">
-                <div class="row bg-color-name-title">
+                <div class="row no-gutters bg-color-name-title">
                     <!-- div class of col must always follow 'row' -->
                     <div class="col heading">
                         <h1 class="name">Christopher Parry</h1>
                         <h2 class="title">Junior Full Stack Developer</h2>
+                    </div>
+                </div>
+            <!-- Navigation bar under name and title -->
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <!-- Viewed on 4 sections on larger screen, 2 on mobile -->
+                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item">
+                                <a href="#"><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item">
+                                <a href="#"><span>Resume</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item">
+                                <a href="#"><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item">
+                                <a href="#"><span>Download</span></a>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
