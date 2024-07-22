@@ -59,7 +59,38 @@
     <section>
 
     </section>
-    <footer>
+    
+    <!-- Container fluid makes it full width flexible container, sm-4 to create a block of 3 -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Home</h5>
+                <p class="inline-block">
+                    Full Stack Web Developer. Skilled in everything from HTML to Heroku.
+                    The capacity for structual and design thinking.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Need a printable version of my CV? Download it here.
+    <!-- _blank navigates to external page -->
+                    <a href="#" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+    <!-- sr-only is 'screenreader only' and will not appear on the browser -->
+                        <span class="sr-only">Download Link</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </footer>
     
