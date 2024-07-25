@@ -20,6 +20,10 @@
     background-color: #9b59b6;  
 }
 
+.bg-color-contact {
+    background-color: white;
+}
+
 header {
     margin: 0;
 }
@@ -333,7 +337,7 @@ footer {
     top: 3em;
     display: block;
     font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -350,3 +354,47 @@ footer {
     content: "";
     background:  #fafafa;
 }
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------- Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+/* Top and bottom margin 0, left and right auto centers content */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ------------------------------------- Media Queries */
+/* Media query will only take affect when screen is 992px or greater */
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+
+
+    
